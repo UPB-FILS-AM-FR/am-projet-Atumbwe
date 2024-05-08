@@ -1,17 +1,36 @@
 # Your Project Name
-
+ Automatic trash
 | | |
 |-|-|
-|`Author` | Your full name
+|`Author` | Your full name 
+ATUMBWE FAILA GEMIMA 
 
 ## Description
-
+The project aims to create an automatic trash can using Arduino, which opens and closes its lid automatically when an object approaches or leaves the vicinity. The system utilizes an ultrasonic sensor to detect the distance of an object and a micro servo motor to control the lid's movement.
 ## Motivation
-
+This project is an innovative solution for waste management, promoting cleanliness and hygiene in public spaces. The automatic trash can reduces the need for manual intervention, making it more efficient and convenient. Additionally, it can be an engaging educational project for students and enthusiasts, demonstrating the application of sensors and actuators in real-world scenarios.
 ## Architecture
+Hardware Components:
+
+Arduino Nano (microcontroller board)
+Micro Servo Motor (R) (actuator)
+Ultrasonic Sensor (HR) (sensor)
+Breadboard (prototyping platform)
+Blue USB (power supply and programming interface)
+Jumper wires (for connections)
+
+Software Components:
+
+Arduino IDE (programming environment)
+Servo library (for controlling the servo motor)
 
 ### Block diagram
 
+The ultrasonic sensor is connected to the Arduino Nano, which reads the sensor data and calculates the distance of an object.
+When the distance falls below a certain threshold, the Arduino sends a signal to the micro servo motor to open the lid.
+The servo motor rotates to a specific angle, opening the lid.
+After a predetermined time, the servo motor rotates back to its original position, closing the lid.
+The system continuously monitors the distance and repeats the process as needed.
 <!-- Make sure the path to the picture is correct -->
 ![Block Diagram](schematics/block_diagram.png)
 
@@ -21,6 +40,11 @@
 
 ### Components
 
+-Arduino Nano : 24.99 ron
+-Ultrasonic sensor HC-SR04 : 6.49 RON
+-Micro Servo Motor : 13.99 ron
+-Breadboard kit with Wires and Power Supply : 22.00 ron
+-Blue USB : 4.37 ron
 
 <!-- This is just an example, fill in with your actual components -->
 
@@ -32,6 +56,7 @@
 | Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
 
 ### Libraries
+ 
 
 <!-- This is just an example, fill in the table with your actual components -->
 
