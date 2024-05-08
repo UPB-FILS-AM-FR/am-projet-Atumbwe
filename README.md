@@ -56,12 +56,7 @@ The system continuously monitors the distance and repeats the process as needed.
 | Breadboard | Project board | [10 RON](https://www.optimusdigital.ro/ro/prototipare-breadboard-uri/8-breadboard-830-points.html?search_query=breadboard&results=145) |
 
 ### Libraries
-
--Arduino Nano 
--Ultrasonic sensor HC-SR04 
--Micro Servo Motor 
--Breadboard kit with Wires and Power Supply 
--Blue USB 
+ 
 
 <!-- This is just an example, fill in the table with your actual components -->
 
