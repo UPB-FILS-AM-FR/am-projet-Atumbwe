@@ -1,5 +1,5 @@
 # Your Project Name
-
+ Automatic trash
 | | |
 |-|-|
 |`Author` | Your full name 
